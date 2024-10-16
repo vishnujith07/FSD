@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #ff5864;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff5864;
+    font-weight: bold;
+}
+
+.hero-section {
+    position: relative;
+    overflow: hidden; /* Ensure content is clipped to the boundaries */
+}
+
+.hero-image {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    max-height: 400px; /* Set a maximum height */
+    object-fit: cover; /* Crop the image to fit the container */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #ff5864;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e45d7e;
+}
+
+.features {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 20px;
+}
+
+.feature-card {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.feature-image {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Set a maximum height for feature images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff5864;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Existing styles above */
+
+.profiles {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.profiles h2 {
+    margin-bottom: 20px;
+}
+
+.profile-card {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    vertical-align: top;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Set a maximum height for profile images */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* About Us Section */
+.about-section {
+    padding: 40px;
+    background-color: #fff;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    color: #ff4b5c;
+    margin-bottom: 10px;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.about-content ul li:before {
+    content: "✔";
+    color: #ff4b5c;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
